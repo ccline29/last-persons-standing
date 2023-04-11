@@ -154,7 +154,7 @@ export const posts = [
     location: "Austin, TX",
     description: "Some really long random description",
     picturePath: "post1.jpeg",
-    userPicturePath: "p3.jpeg",
+    userPicturePath: "p1.jpeg",
     likes: new Map([
       [userIds[0], true],
       [userIds[2], true],
@@ -176,7 +176,7 @@ export const posts = [
     description:
       "Another really long random description. This one is longer than the previous one.",
     picturePath: "post2.jpeg",
-    userPicturePath: "p6.jpeg",
+    userPicturePath: "p2.jpeg",
     likes: new Map([
       [userIds[7], true],
       [userIds[4], true],
@@ -223,7 +223,7 @@ export const posts = [
     description:
       "This is the last really long random description. This one is longer than the previous one. Man I'm bored. I'm going to keep typing until I run out of things to say.",
     picturePath: "post4.jpeg",
-    userPicturePath: "p7.jpeg",
+    userPicturePath: "p12.jpeg",
     likes: new Map([
       [userIds[1], true],
       [userIds[6], true],
@@ -271,7 +271,7 @@ export const posts = [
     description:
       "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
     picturePath: "post6.jpeg",
-    userPicturePath: "p9.jpeg",
+    userPicturePath: "p14.jpeg",
     likes: new Map([
       [userIds[1], true],
       [userIds[2], true],
