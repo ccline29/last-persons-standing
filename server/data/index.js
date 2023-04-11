@@ -266,7 +266,7 @@ export const posts = [
     _id: new mongoose.Types.ObjectId(),
     userId: userIds[7],
     firstName: "Richard",
-    lastName: "Prior",
+    lastName: "Pryor",
     location: "Harlem, NY",
     description:
       "For the last time, I'm going to play video games now. I'm tired of typing. I'm going to play video games now.",
