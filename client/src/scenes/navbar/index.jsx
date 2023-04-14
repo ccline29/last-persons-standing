@@ -56,7 +56,7 @@ const Navbar = () => {
             },
           }}
         >
-          Mystery Website
+          Star Stalker
         </Typography>
         {isNonMobileScreens && (
           <FlexBetween

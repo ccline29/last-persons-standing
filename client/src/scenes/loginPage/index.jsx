@@ -13,7 +13,7 @@ const LoginPage = () => {
         textAlign="center"
       >
         <Typography fontWeight="bold" fontSize="30px" color="primary">
-          Mystery Site
+          Star Stalker
         </Typography>
       </Box>
 
@@ -25,7 +25,7 @@ const LoginPage = () => {
         backgroundColor={theme.palette.background.alt}
       >
         <Typography fontWeight="500" variant="h5" sx={{ mb: "1.5rem" }}>
-          Welcome to our Mystery Website!
+          Welcome to Star Stalker, base your entire personality on these people!
         </Typography>
         <Form />
       </Box>
