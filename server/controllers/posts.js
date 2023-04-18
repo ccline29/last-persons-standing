@@ -26,7 +26,7 @@ export const createPost = async (req, res) => {
   }
 };
 
-//update
+//read
 export const getFeedPosts = async (req, res) => {
   try {
     const post = await Post.find();
@@ -36,6 +36,7 @@ export const getFeedPosts = async (req, res) => {
   }
 };
 
+//read
 export const getUserPosts = async (req, res) => {
   try {
     const { userId } = req.params;
@@ -45,7 +46,7 @@ export const getUserPosts = async (req, res) => {
     res.status(404).json({ message: err.message });
   }
 };
-//update
+//update/delete
 export const likePost = async (req, res) => {
   try {
     const { id } = req.params;
